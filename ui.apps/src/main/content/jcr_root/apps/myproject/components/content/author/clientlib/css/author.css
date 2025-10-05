@@ -1,0 +1,13 @@
+.fname{
+    color: blue;
+    font-weight: bold;
+    border-bottom: 2px;
+    padding-bottom: 4px;
+}
+
+.lname{
+    color: brown;
+    font-size: larger;
+    border-color: brown;
+    border-width: 2px;
+}
