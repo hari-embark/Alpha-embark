@@ -1,0 +1,7 @@
+<div data-sly-use.books="com.myproject.aem.core.models.Books">
+    <h2>${books.title}</h2>
+    <h2>${books.description}</h2>
+    <div data-sly-list.item = "${books.authorBooks}">
+      <p>Books : <b> ${item.bookName}</b></p>
+    </div>
+</div>
